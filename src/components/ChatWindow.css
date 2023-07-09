@@ -1,0 +1,85 @@
+.infoBar {
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+    border-bottom: 1px solid #7f7f7f;
+    text-align: left;
+    display: flex;
+}
+
+.penpalName {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+}
+
+.penpalLanguage {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.chatBox {
+    flex-grow: 1;
+    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.chatBox::-webkit-scrollbar {
+    display: none;
+}
+
+
+.inputBox {
+    height: 10%;
+    margin-top: auto;
+}
+
+.inputForm {
+    margin: 0 auto;
+}
+
+.inputBox form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.inputBox form input {
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputBox form button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.chatWindow {
+    width: 60%;
+    height: 80vh;
+    color: white;
+    margin: 0 auto;
+    background-color: #FDF2E9;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
