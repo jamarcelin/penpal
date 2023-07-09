@@ -32,8 +32,6 @@ Once the server and web app are running locally, you can access the PenPal langu
 
 ## Screenshots
 
-You can include screenshots of the PenPal app here to showcase its features. For example:
-
 ![Screenshot 1](screenshots/chat.png)
 ![Screenshot 2](screenshots/grammarerror1.png)
 ![Screenshot 3](screenshots/grammarerror2.png)
